@@ -65,8 +65,8 @@ document.querySelector('#create-note').addEventListener('click', function(evt){
 //for some reason this isnt working
 
 document.querySelector("#remove-all").addEventListener("click", function(){
-  document.querySelectorAll(".note").forEach(function (paragraph) {
-    paragraph.remove();
+  document.querySelectorAll(".note").forEach(function (note) {
+    note.remove();
   });
 });
 
